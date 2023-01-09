@@ -1,0 +1,37 @@
+h1 {
+    color: brown;
+    font-family: 'Teddy Bear';
+
+}
+
+body {
+    background-color: rgb(184, 246, 122);
+}
+
+a {
+    color: rgb(89, 7, 89);
+}
+
+.Big_Text {
+    font-size: 2rem;
+}
+
+img {
+    width: 500px;
+}
+
+@font-face {
+    font-family: 'Teddy Bear';
+    src: url('type/fonts/');
+    /* IE 9 Compatibility Mode */
+    src: url('type/fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('type/fonts/teddy_bear.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('type/fonts/teddy_bear.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('type/fonts/teddy_bear.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('type/fonts/teddy_bear.svg#teddy_bear') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
